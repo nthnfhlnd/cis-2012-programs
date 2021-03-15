@@ -8,15 +8,15 @@
 
 var intGradeOption, floatTotalPts, floatHwPts, floatMidPts, floatFinPts, stringFinalGrade;
 
-floatHwPts = parseFloat(prompt("Please enter final HW pts (0-30):"));
+floatHwPts = parseFloat(prompt("Please enter final HW pts (0-30):", 0));
 
-floatMidPts = parseFloat(prompt("Please enter Midterm Exam pts (0-35):"));
+floatMidPts = parseFloat(prompt("Please enter Midterm Exam pts (0-35):", 0));
 
-floatFinPts = parseFloat(prompt("Please enter Final Exam pts (0-35):"));
+floatFinPts = parseFloat(prompt("Please enter Final Exam pts (0-35):", 0));
 
 floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
 
-intGradeOption = prompt('If the course is pass/fail course, please enter the number "1": \nIf the course is a letter grade course, please enter the number "2": ');
+intGradeOption = prompt('If the course is pass/fail course, please enter the number "1": \nIf the course is a letter grade course, please enter the number "2": ', 1);
 
 if (intGradeOption===1)
 {
