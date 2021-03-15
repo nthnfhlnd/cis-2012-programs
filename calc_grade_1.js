@@ -18,7 +18,7 @@ floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
 
 intGradeOption = prompt('If the course is pass/fail course, please enter the number "1": \nIf the course is a letter grade course, please enter the number "2": ', 1);
 
-if (intGradeOption===1)
+if (intGradeOption==1)
 {
         if(floatTotalPts >= 80)
         {
