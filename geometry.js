@@ -148,7 +148,7 @@ function rectArea(floatRectWidth, floatRectHeight)
     
     var floatRectArea = floatRectWidth * floatRectHeight;
     
-    return floatRectArea;
+    return floatRectArea.toFixed(2);
 }
 
 var calcRectArea = function()
